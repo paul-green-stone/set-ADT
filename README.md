@@ -8,6 +8,8 @@
 
 [Examples](#examples)
 
+[Resources](#resources)
+
 ## Overview
 
 Sets are collection of distinguishable objects, called *members*, grouped together because they are in some way related. Two important characteristics of sets are that their members are unordered and that no members occur more than once. Sets are important part of descrete mathemtaics, an area of mathemtaics particularly relevant to computing.

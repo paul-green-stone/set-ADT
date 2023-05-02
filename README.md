@@ -22,25 +22,25 @@ Formally, sets are written with braces around them. Thus, if $S$ is a set contai
 
 2. Two sets are *equal* if they contain exactly the same members.
 
-    $S~1~ = S~2~$ means $S~1~$ and $S~2~$ are equal; $S~1~ \neq S~2~$ means $S~1~$ and $S~2~$ are not equal.
+    S<sub>1</sub> = S<sub>2</sub> means S<sub>1</sub> and S<sub>2</sub> are equal; S<sub>1</sub> $\neq$ S<sub>2</sub> means S<sub>1</sub> and S<sub>2</sub> are not equal.
 
-3. One set, $S~1~$, is a *subset* of another set, $S~2~$, if $S~2~$ contains all of the members of $S~1~$.
+3. One set, S<sub>1</sub>, is a *subset* of another set, S<sub>2</sub>, if S<sub>2</sub> contains all of the members of S<sub>1</sub>.
 
-    $S~1~ \subset S~2~$ means $S~1~$ is a subset of $S~2~$; $S~1~ \not\subset S~2~$ means $S~1~$ is not a subset of $S~2~$
+    S<sub>1</sub> $\subset$ S<sub>2</sub> means S<sub>1</sub> is a subset of S<sub>2</sub>; S<sub>1</sub> $\not\subset$ S<sub>2</sub> means S<sub>1</sub> is not a subset of S<sub>2</sub>
 
 ### Basic Operations
 
-1. The *union* of two sets, $S~1~$ and $S~2~$, is a set $S~u~$, that contains all of the members of $S~1~$ in addition to all of the members of $S~2~$.
+1. The *union* of two sets, S<sub>1</sub> and S<sub>2</sub>, is a set S<sub>u</sub>, that contains all of the members of S<sub>1</sub> in addition to all of the members of S<sub>2</sub>.
 
-    $S~1~ \cup S~2~$ represents the union of $S~1~$ and $S~2~$
+    S<sub>1</sub> $\cup$ S<sub>2</sub> represents the union of S<sub>1</sub> and S<sub>2</sub>
 
-2. The *intersection* of two sets, $S~1~$ and $S~2~$, is a set, $S~i~$, that contains only members that exist on both $S~1~$ and $S~2~$.
+2. The *intersection* of two sets, S<sub>1</sub> and S<sub>2</sub>, is a set, S<sub>i</sub>, that contains only members that exist on both S<sub>1</sub> and S<sub>2</sub>.
 
-    $S~1~ \cap S~2~$ represents the intersection of $S~1~$ and $S~2~$
+    S<sub>1</sub> $\cap$ S<sub>2</sub> represents the intersection of S<sub>1</sub> and S<sub>2</sub>
 
-3. The *difference* of two sets, $S~1~$ and $S~2~$, is a set, $S~d~$, that contains all of the members of $S~1~$ except those in $S~2~$.
+3. The *difference* of two sets, S<sub>1</sub> and S<sub>2</sub>, is a set, S<sub>d</sub>, that contains all of the members of S<sub>1</sub> except those in S<sub>2</sub>.
 
-    $S~1~ - S~2~$ represents the difference of $S~1~$ and $S~2~$
+    S<sub>1</sub> $-$ S<sub>2</sub> represents the difference of S<sub>1</sub> and S<sub>2</sub>
 
 ## API
 

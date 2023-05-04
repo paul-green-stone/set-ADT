@@ -179,8 +179,6 @@ Allocates a new set that is the union of `set_1` and `set_2`.
 
 | Type | Description |
 | ---- | ----------- |
-| `const Set set_1` | A set to union |
-| `const Set set_2` | A set to union |
 | `const size_t elm_size` | Size in bytes of a member. By default `Data` is `typedef int* Data` |
 
 **Return value**: a new set `Set` which is the union of the specified ones.

@@ -142,7 +142,7 @@ void Set_print(const Set set, void (*fptr_print)(const Data)) {
         printf("{");
 
         if (set->size > 0) {
-            alt_fptr_print = (set->fptr_print == NULL) ? fptr_print : set->fptr_print;
+            alt_fptr_print = (fptr_print != NULL) ? fptr_print : set->fptr_print;
 
             for (Node node = set->head; node != NULL; node = node->next) {
                 alt_fptr_print(node->data);

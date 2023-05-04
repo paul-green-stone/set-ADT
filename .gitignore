@@ -52,7 +52,6 @@ Mkfile.old
 dkms.conf
 
 # Source
-main.c
 
 # Miscellaneous
 .vscode

@@ -44,6 +44,38 @@ Formally, sets are written with braces around them. Thus, if $S$ is a set contai
 
     S<sub>1</sub> $-$ S<sub>2</sub> represents the difference of S<sub>1</sub> and S<sub>2</sub>
 
+### Properties
+
+1. The intersection of a set with the empty set is the empty set. The union of a set with the empty set is the original set.This behavior is described by the *empty set laws*:
+
+    $$S \cap \emptyset = \emptyset$$
+    $$S \cup \emptyset = S$$
+
+2. The intersection of a set with itself is the original set. Similarly, the union of a set with itself is the original set. This behavior is described by the *idempotency laws*:
+
+   $$S \cap S = S$$
+   $$S \cup S = S$$
+
+3. The intersection of a set, $A$, with another set $B$, results in the same set as the intersecton of $B$ with $A$. The same is true for the union of two sets. This behavior is desctibed by the *commutative laws*:
+
+    $$A \cap B = B \cap A$$
+    $$A \cup B = B \cup A$$
+
+4. The intersection of a number of sets can be performed in any order. The same is true for the union of a number of sets. This behavior is described by the *associative laws*:
+
+    $$A \cap (B \cap C) = (A \cap B) \cap C$$
+    $$A \cup (B \cup C) = (A \cup B) \cup C$$
+
+5. The intersection of a set with the union of two others can be carried out in a distributed manner. The same is true for the union of a set with the intersection of two others. This behavior is described by the distributive laws:
+
+    $$A \cap (B \cup C) = (A \cap B) \cup (A \cap C)$$
+    $$A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$$
+
+6. The intersection of a set with the union of itself and another results in the original set. The same is true for the union of a set with the intersection of itself and another. This behavior is described by the *absorption laws*:
+
+    $$A \cap (A \cup B) = A$$
+    $$A \cup (A \cap B) = A$$
+
 ## API
 
 ### Set_new
